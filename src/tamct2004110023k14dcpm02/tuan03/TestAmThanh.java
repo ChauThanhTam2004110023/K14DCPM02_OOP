@@ -3,8 +3,8 @@ package tamct2004110023k14dcpm02.tuan03;
 public class TestAmThanh {
     public static void main(String[] args) {
         AmThanh at = new AmThanh();
-        at.TronCut();
-        at.TamGiac();
-        at.HinhVuong();
+        at.hinhTronCut();
+        at.hinhTamGiac();
+        at.hinhVuong();
     }
 }
