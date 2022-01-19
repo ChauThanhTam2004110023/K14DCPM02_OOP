@@ -1,4 +1,4 @@
-package tamct2004110023k14dcpm02.tuan04;
+package tamct2004110023k14dcpm02.Buoi04;
 
 public class Bank {
     String tenNguoiGui;
