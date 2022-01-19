@@ -9,10 +9,10 @@ public class Employee {
 
     public Employee(String Name, int Id, int Age, String Class)
     {
-        name = Name;
-        id = Id;
-        age = Age;
-        clas = Class;
+        this.name = Name;
+        this.id = Id;
+        this.age = Age;
+        this.clas = Class;
     }
 
     public void printName()
