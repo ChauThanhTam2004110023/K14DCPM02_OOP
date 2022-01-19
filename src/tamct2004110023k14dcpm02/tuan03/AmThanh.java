@@ -10,15 +10,15 @@ public class AmThanh {
 
     }
 
-    public void hinhTamGiac()
+    public void print_Square()
     {
         System.out.println("Tam Giác, Ùn Ùn");
     }
-    public void hinhTronCut()
+    public void print_Circle()
     {
         System.out.println("Tròn Cụt, Ào Ào");
     }
-    public void hinhVuong()
+    public void print_Triangle()
     {
         System.out.println("Hình Vuông, Bàng Bàng");
     }
