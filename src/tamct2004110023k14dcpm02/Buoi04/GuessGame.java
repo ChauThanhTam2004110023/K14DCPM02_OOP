@@ -21,20 +21,20 @@ public class GuessGame {
         boolean p3isRight = false;
 
         int targetNumber = (int) (Math.random() * 10);
-        System.out.println("I'm thinking of a number between 0 and 9....");
+        System.out.println("Tôi đang nghĩ đến một số từ 0 -> 9: ....");
         while(true)
         {
-            System.out.println("Number to gues is " +targetNumber);
+            System.out.println("Số guess là:  " +targetNumber);
             p1.guess();
             p2.guess();
             p3.guess();
 
             guessp1 = p1.number;
-            System.out.println("player one guessed " +guessp1);
+            System.out.println("Một người chơi đoán là:  " +guessp1);
             guessp2 = p2.number;
-            System.out.println("player two guessed " +guessp2);
+            System.out.println("Hai người chơi đoán là:  " +guessp2);
             guessp3 = p3.number;
-            System.out.println("player three guessd " +guessp3);
+            System.out.println("Ba người chơi đoán là:  " +guessp3);
 
             if(guessp1 == targetNumber)
             {
@@ -50,11 +50,11 @@ public class GuessGame {
             }
             if(p1isRight || p2isRight || p3isRight)
             {
-                System.out.println("we have a winner!");
-                System.out.println("player one got it right?" +p1isRight);
-                System.out.println("player two got it right?" +p2isRight);
-                System.out.println("player three got it right?" +p3isRight);
-                System.out.println("game is over");
+                System.out.println("Chúng tôi có một người chiến thắng!");
+                System.out.println("Người chơi một đã hiểu đúng?" +p1isRight);
+                System.out.println("Người chơi hai đã hiểu đúng?" +p2isRight);
+                System.out.println("Người chơi ba đã hiểu đúng?" +p3isRight);
+                System.out.println("Cuộc chơi đã kết thúc");
                 break;
             }
             else
