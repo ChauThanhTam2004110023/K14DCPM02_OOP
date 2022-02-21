@@ -17,6 +17,6 @@ public class IntSquare {
 
     private int calculateSquare(int value)
     {
-        return (int)Math.pow(value, 2);
+        return (int)Math.pow(value, 0.75);
     }
 }
