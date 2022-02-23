@@ -6,6 +6,6 @@ public class TestSanPham {
         System.out.println("ten san pham: " +sanPham.getTenSanPham());
         System.out.println("Don gia: " +sanPham.getdonGia());
         System.out.println("Giam gia: " +sanPham.getGiamGia());
-        System.out.println("Thue nhap khau: " +sanPham.getThueNhapKhau());
+        System.out.println("thue nhap khau: " +sanPham.getThueNhapKhau());
     }
 }

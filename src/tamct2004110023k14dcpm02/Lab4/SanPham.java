@@ -1,5 +1,6 @@
 package tamct2004110023k14dcpm02.Lab4;
 
+// Encapsulation
 public class SanPham {
     private String tenSanPham;
     private int donGia;
