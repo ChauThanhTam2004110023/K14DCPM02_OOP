@@ -13,6 +13,10 @@ public class SinhVien {
         this.diemLT = diemLT;
         this.diemTH = diemTH;
     }
+    SinhVien ()
+    {
+
+    }
 
     public int getmssv()
     {
