@@ -1,14 +1,19 @@
 package tamct2004110023k14dcpm02.Buoi06;
 
-public class Cat extends Animal{
+public class Cat extends Feline{
     @Override
     protected void makeNoise()
     {
         System.out.println("Meo Meo");
     }
-
-    protected void chasebutterfly()
+    @Override
+    protected void eat()
     {
-        System.out.println("Bắt Bướm");
+        System.out.println("an com");
+    }
+    
+    public void chaseCats()
+    {
+        System.out.println("Duoi cho");
     }
 }

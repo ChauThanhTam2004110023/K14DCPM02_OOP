@@ -1,15 +1,17 @@
 package tamct2004110023k14dcpm02.Buoi06;
 
-public class Tiger extends Feline{
+public class Wolf extends Animal{
     @Override
     protected void eat()
     {
-        System.out.println("Thit ca");
+        System.out.println("An thit");
     }
-
+    
     @Override
     protected void makeNoise()
     {
-        System.out.println("Gu Gu");
-    }
+        System.out.println("Go Go");
+    }    
 }
+
+   

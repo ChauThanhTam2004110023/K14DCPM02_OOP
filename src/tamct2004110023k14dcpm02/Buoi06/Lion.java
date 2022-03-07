@@ -1,6 +1,6 @@
 package tamct2004110023k14dcpm02.Buoi06;
 
-public class Lion extends Animal{
+public class Lion extends Feline{
     @Override
     protected void eat()
     {

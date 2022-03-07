@@ -5,5 +5,6 @@ public class TestDog {
         Dog dog = new Dog();
         dog.eat();
         dog.makeNoise();
+        dog.chaseCats();
     }
 }

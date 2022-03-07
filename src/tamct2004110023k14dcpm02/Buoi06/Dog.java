@@ -1,6 +1,6 @@
 package tamct2004110023k14dcpm02.Buoi06;
 
-public class Dog extends Cat {
+public class Dog extends Feline {
     @Override
     protected void eat()
     {
@@ -10,5 +10,9 @@ public class Dog extends Cat {
     protected void makeNoise()
     {
         System.out.println("Bắt trộm....");
+    }
+    public void chaseCats()
+    {
+        System.out.println("Duoi Meo");
     }
 }
