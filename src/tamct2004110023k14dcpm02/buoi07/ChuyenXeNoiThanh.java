@@ -4,13 +4,6 @@ public class ChuyenXeNoiThanh extends ChuyenXe{
     private int soTuyen;
     private int soKM;
 
-    /*public ChuyenXeNoiThanh(int soTuyen, int soKM)
-    {
-        this.soTuyen = soTuyen;
-        this.soKM = soKM;
-    }
-    */
-
     public int getSoTuyen()
     {
         return soTuyen;
