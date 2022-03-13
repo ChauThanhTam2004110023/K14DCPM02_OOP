@@ -57,7 +57,7 @@ public class HangThucPham {
         this.ngaySx = ngaySx;
     }
 
-    public Date getNgayHetHan() 
+    public Date getNgayHetHan(Date ngayHetHan) 
     {
         if(ngayHetHan.after(ngaySx))
         {
