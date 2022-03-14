@@ -10,8 +10,9 @@ public class class1 {
 
 
     - Nếu một lớp mà ko kế thừa lớp cha nào thì nó sẽ tự động kế thừa Object class
-    - Gọi Contructer mặc định của cha */
+    - Gọi Contructer mặc định của cha 
     
-
-
+    
+    - tính trừu tượng là sự tăng cường tính độc lặp giữa implementation(thực hiện) và interface(giao diện)
+    - Đa kế thừa: mỗi lớp con chỉ chứa một lớp cha duy nhất (chỉ có một extend)*/
 }
