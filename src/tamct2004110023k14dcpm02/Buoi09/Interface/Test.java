@@ -86,6 +86,22 @@ public class Test {
             System.out.println(arSachThamKhao.get(i).toString());
         }
 
+        System.out.println("Trung bình cộng đơn giá các sách giáo khoa");
+        for(int i = 0; i < arSachGiaoKhoa.size(); i++)
+        {
+            tongDonGiaSachGiaoKhoa += arSachGiaoKhoa.get(i).getDonGia();
+            trungBinhCongDonGia = tongDonGiaSachGiaoKhoa / arSachGiaoKhoa.size();
+        }
+
+        System.out.println("Trung bình cộng đơn giá các sách giáo khoa = " +trungBinhCongDonGia);
+        for(int i = 0; i < arSachThamKhao.size(); i++)
+        {
+            if(arSachGiaoKhoa.get(i).getNhaSanXuat().equalsIgnoreCase("X"))
+            {
+                System.out.println(arSachGiaoKhoa.get(i).toString());
+            }
+        }
+
         System.out.println("Trung bình cộng đơn giá các sách tham khảo");
         for(int i = 0; i < arSachGiaoKhoa.size(); i++)
         {
